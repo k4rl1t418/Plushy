@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  header {
+    height: 40px;
+    background-color: #fff;
+    color: white;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute space evenly */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .cart {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #c581a3;
+    color: white;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .product {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  button {
+    background-color: #c581a3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .lista{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+  }
+
+  .sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 20px;
+  }
+  
+
+  #contact-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 10;
+    display: none; /* Initially hidden */
+  }
+
+  .sorting {
+    display: flex;
+    align-items: center;
+  }
+
+  .sorting label {
+    margin-right: 10px;
+  }
+  
+  .sorting select {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
